@@ -1,0 +1,61 @@
+body{
+background-color:black;
+margin:0;
+font-family: 'Berkshire Swash', cursive;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	margin:0;
+	background-color:#3be820;
+	line-height:1.1;
+	Transition: uppercase;
+}
+#colorDisplay{
+	font-size:1.5em;
+	margin:2%;
+}
+#message{
+	display:inline-block;
+	width:20%;
+}
+	
+#head{
+	background-color:white;
+	text-align: center;
+	height:30px;
+	color:black;
+	
+}
+button{
+	border:none;
+	height:100%;
+	background:none;
+	font-size:inherit;
+	letter-spacing:1px;
+	font-family: 'Berkshire Swash', cursive;
+	transition: all 0.5s;
+	outline:none;
+	Transition: uppercase;
+}
+button:hover{
+	background-color:#3be820;
+	color:white;
+}
+
+#container{
+	max-width:600px;
+	margin:20px auto;
+}
+.square{
+	background:purple;
+	width: 30%;
+	float: left;
+	margin:1.6%;
+	padding-bottom:30%;
+	border-radius:15%;
+	transition: background-color 0.8s;
+}
+
+	

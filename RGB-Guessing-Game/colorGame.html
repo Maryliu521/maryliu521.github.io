@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+<title>The RGB Color Guessing Game</title>
+<link rel ="stylesheet"  type = "text/css" href="colorGame.css"> 
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+<style>
+.selected{
+	background-color:#3be820;
+}
+</style>
+</head>
+<body>
+  <h1>Fun
+  <br>
+  <span id="colorDisplay">RGB</span>
+  <br>
+  Game</h1>
+	<div id= "head">
+	  <button id="reset">New Game</button>
+	  <span id="message"></span>
+	  <button class="mode">Easy</button>
+	  <button class="mode selected">Hard</button>
+	</div>
+		<div id="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+<script src="colorGame.js"></script>
+</body>
+
+</html>

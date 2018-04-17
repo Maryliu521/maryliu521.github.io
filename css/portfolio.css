@@ -1,0 +1,310 @@
+body{
+	  background: lightblue url(../images/fa.jpg) no-repeat center; 
+	 background-attachment: fixed; 
+	 max-width: 100%;
+	 display: block;
+}
+
+	
+	
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00bfff;
+	opacity:0.8;
+	overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+	font-weight:700;
+    color: darkblue;
+    display: block;
+    transition: 0.3s;
+	font-family:'Lobster', cursive;
+	line-height:3em;
+	
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		margin-top: 50px;
+}
+.navbar{
+		font-family: 'Lobster', cursive;
+		float:left;
+		font-size:45px;
+		letter-spacing:0.2em;
+		margin-top:5%;
+		margin-left:13%;
+		width:80%;
+		text-shadow: 2px 1px #fff;
+		color:darkblue;
+		cursor: pointer;
+}
+.name{
+		cursor: pointer;
+		color:  #f442df;
+		font-size:50px;
+		font-family: 'Lobster', cursive;
+}
+
+#home {
+		 background: url(../images/3.jpg) no-repeat ; 	 
+		 background-size:cover;
+	     width: 100%;
+		 display: fixed;
+		 border-radius:8px;
+		 padding-top: 350px; 
+		 padding-bottom: 500px;
+}
+
+h1 {
+	  font-family: 'Lobster', cursive;
+	  letter-spacing:0.2em;
+	  line-height: 50px;
+	  font-weight: 500;
+	  font-size: 40px;
+	  text-transform: uppercase;
+	  text-align: center;
+	  color: #00bfff;
+	  padding-top:25px;
+	  text-shadow: 2px 1px #fff;
+  }
+  
+h1::after { /*This is the underline */
+	  display: block;
+	  content:"";
+	  height: 2px;
+	  width: 150px;
+	  background:#00bfff;
+	  margin: 5px auto 40px;
+	  box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+  }
+  	/*===========
+	    Skills
+	   ========*/
+#skills {
+	  margin: 5% auto;
+	  text-align: center;
+	
+  }
+.col-md-2 mt-3{
+	text-align:center;
+}
+ 
+h5 {
+		color: #f442df;
+		font-family: roboto;
+		font-size:20px;
+		font-weight:800;
+	
+	}
+ 
+.img-thumbnail {
+	  margin-bottom: 1em;
+	  overflow: hidden;
+	  border-radius: 8px; 
+	  padding: 1px; 
+	  border: 1px solid #00bfff;
+	  box-shadow: 2px 2px 10px 0 lightblue;
+	  width: 100px;
+	  height: 100px;
+	  
+  }
+.more{
+	  text-align: center;
+	  margin: auto;
+  }
+.language{ 
+	 display: inline-block;
+     margin: 50px;	 
+   } 
+    /*===========
+	    Experiences
+	   ========*/
+#experience {
+	margin: 10% auto;
+	
+}
+#hide {
+	width: 120px;
+	margin-bottom:10px;
+	color: #f442df;
+
+}
+
+
+.card-group {
+		padding:40px;
+		border-radius:10px;
+		background-color:#00bfff;
+		opacity:0.8;
+		font-family: roboto;
+}
+.card{
+		position: relative;
+		line-height: 0;
+		overflow: hidden;
+		border-radius: 10px; 
+		margin:1em;
+		padding: 1px;
+		border: 1px solid lightblue;
+		background-color: info;
+	    box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
+		width:auto;
+		
+	}
+.card-img-top{
+		width:auto;
+		height:auto;
+	}
+h4{
+	font-weight:600;
+	font-size:25px;
+}
+h6{
+	font-size:20px;
+}
+	/*===========
+	  My Projects
+	   ========*/
+#myProjects{
+		margin-top:8%;
+}
+.projects{
+	margin:auto;	
+}
+.item{
+		vertical-align:top;
+		display: inline-block;
+		text-align:center;
+		width:15%;	
+		margin:4.5%;
+
+}
+.square{
+	 border-radius: 8px;
+	 border: 2px solid #00bfff;
+	 box-shadow: 1px 1px 5px 0 rgba(0, 0, 1,.7);
+	 display:block;
+	 margin:0 auto;
+	 width:100%;
+	 height:100%;
+	 opacity:0.8;
+}
+
+.btn2{
+	display:block;
+	color:  blue;
+	font-weight:600;
+	font-size:20px;
+	font-family:roboto;
+}
+	
+	/*===========
+	   About me
+	   ========*/
+
+#aboutMe{
+	margin-top:8%;
+}
+#meContent {
+	margin-top:8%;
+	overflow: hidden;
+	width:100%;
+	height:50%;
+	border-radius:10px;
+    background-color: #00BFFF;
+	opacity:0.8;
+	letter-spacing:0.1em;
+}
+p {
+	  font-family: roboto;
+	  font-weight:800;
+	  line-height: 40px;
+	  font-size: 25px;
+	  color:darkblue;
+	  padding: 20px;
+	  margin-top:2%;
+	  
+	}
+
+
+
+   /*=========
+   contct me
+   ===========*/
+#contact{
+	margin-top:8%;
+}
+#nav{
+	margin-top:8%;
+    text-align:center;
+	
+	}
+.btn,.btn1{
+		width:120px;
+		height:40px;
+		font-size:20px;
+		border-radius:8px;
+		margin: 3px;
+		font-family: roboto;
+	}
+			
+	
+		/*======
+		Footer
+		========*/
+#footer {   
+        font-family: roboto;  
+		font-size:20px;
+		color: #000;
+		text-shadow: 2px 2px 8px 0 (0,0,0,.4);
+	    padding: 20px 50px 20px 50px;
+	    text-align: right;
+		margin-top: 5%;
+	   }
+.print{
+		background-color:#00bfff;
+		padding-right:2%;
+		opacity:0.8;
+}
+	          /*==============
+			     MEDIA QUERES
+			   ===============*/
+@media (max-width: 370px){
+
+.navbar{
+	font-size:25px;;
+}
+
+}
+ @media all and (max-width:995px) and (min-width:570px){
+h4{
+	font-size:0.8em; 
+ } 
+h6{ 
+	font-size:0.7em; 
+ } 
+}
+
+
+
+

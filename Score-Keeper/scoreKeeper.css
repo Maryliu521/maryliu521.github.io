@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+	background:#f298e9;
+}
+hr{
+	width:20%;
+}
+#p1Display{
+	background:#f9f963;
+}
+#p2Display{
+	background:#f9f963;
+}
+p{
+	font-size:20px;
+}
+button{
+	font-size: 15px;
+}
+.winner{
+	color:red;
+}
+.button{
+  color: blue;
+}
